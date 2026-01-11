@@ -7,4 +7,6 @@ include:
     shield: crosses_right
     artifact-name: crosses_42_right
   - board: nice_nano
-    shield: settings_reset
+    shield: settings_reset    
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
