@@ -4,14 +4,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: lanyagagaga-droid
-      url-base: https://github.com/lanyagagaga-droid
+    - name: jlovald
+      url-base: https://github.com/jlovald
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: gggw-zmk-keebs
-      remote: lanyagagaga-droid
+      remote: jlovald
       revision: main
       import: config/west.yml
   self:
